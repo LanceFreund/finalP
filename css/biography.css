@@ -1,0 +1,186 @@
+
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1 {
+    width: 100%;
+    background-color: #000;
+    margin-top: .75em;
+    font-size: 40px;
+    text-align: center;
+    color: #FFF;
+}
+
+h3 {
+    color: white;
+}
+
+#links{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.link {
+    display: inline;
+    margin: 0 1.5em;
+    font-size: 2em;
+    text-shadow: 1.5px 1.5px;
+    text-align: center;
+    vertical-align: middle;
+    list-style: none;
+    width: 100%;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+    
+#jumbotron {
+display: block;
+height: 100%;
+width: auto;
+position: fixed;
+overflow: scroll;
+background: url(../imgs/biobackground.png) center center;
+background-size: cover; 
+}
+    
+    .biotext {
+    display: block;
+    padding-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-bottom: 1.5em;
+    border: solid darkturquoise 2px;
+    border-bottom-right-radius: 10em;
+    border-top-left-radius: 10em;
+    width: 90%;
+    background-color: white;
+    color: purple;
+    opacity: .7;
+}
+    
+    .biotext h3 {
+    text-align: center;
+    text-decoration: underline;
+    color: purple;
+}
+    
+    #endtext {
+    margin-bottom: 7em;
+}
+    
+@media screen and (max-width: 600px){
+    html {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #links{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.link {
+    display: block;
+    width: 100%;
+    margin: 0 1em;
+    font-size: 2em;
+    text-align: center;
+    vertical-align: middle;
+    list-style: none;
+    width: 100%;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+    
+}
+
+@media screen and (max-width: 400px){
+    
+    html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        width: 100%;
+        background-color: #000;
+        margin-top: .75em;
+        font-size: 40px;
+        text-align: center;
+        color: #FFF;
+    }
+
+h3 {
+    color: white;
+}
+    
+    #links {
+        display: block;
+    }
+    
+    .link {
+        list-style: none;
+    }
+    
+    
+    
+    #jumbotron {
+    display: block;
+    margin-bottom: 3em;
+    height: 600em;
+    position: fixed;
+    overflow: scroll;
+    background: url(../imgs/biobackground.png)center center;
+    background-size: cover; 
+}
+    
+    .biotext {
+    display: block;
+    margin: 3em 3em;
+    border: solid darkturquoise 2px;
+    border-bottom-right-radius: 10em;
+    border-top-left-radius: 10em;
+    width: 18em;
+    background-color: white;
+    color: purple;
+    opacity: .7;
+}
+    
+    .biotext h3 {
+    text-align: center;
+    text-decoration: underline;
+    color: purple;
+}
+    
+    #endtext p {
+    padding-bottom: bottom: bottom: 12em;
+    
+}
+    
+}

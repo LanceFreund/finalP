@@ -1,0 +1,338 @@
+@media screen and (min-width: 800px){
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        margin: 0;
+        font-family: 'Fontdiner Swanky', cursive;
+        font-size: 40px;
+        text-align: center;
+        color: #FFF;
+    }
+
+    h3 {
+        margin: 0;
+        font-family: 'Fontdiner Swanky', cursive;
+        font-size: 20px;
+        text-align: center;
+        color: #FFF;
+    }
+
+#bottom {
+        height: 20em;
+        display: block;
+        background-image: url(../imgs/Lightningflash.gif);
+        background-size: cover;
+    }
+    
+    #top {
+        display: inline-table;
+        list-style: none;
+        display: block;
+        width: 100%;
+    }
+    
+    #center {
+        margin-top: 1.5em;
+        text-align: center;
+    }
+
+ #teslaman {
+        height: 12em;
+        width: 9em;
+        border-radius: 80px;
+        opacity: .4;
+    }
+    
+    #coil{
+        margin-left: 5em;
+        height: 12em;
+        width: 9em;
+        border-radius: 80px;
+        opacity: 1;
+    }
+    
+    #poof1 {
+        margin-left: 3em;
+        height: 12em;
+        width: 9em;
+        border-radius: 80px;
+        opacity: .4;
+    }
+    
+    #links{
+        height: 3em;
+        margin: 0;
+        padding-top: .75em;
+        background-image: url(../imgs/zap.gif);
+        background-position: center;
+        text-align: center;
+    }
+    
+    .link {
+        display: inline;
+        margin: 0 2em;
+        text-align: center;
+        list-style: none;
+        height: 2.5em;
+        width: 100%;
+        background-color: #000;
+        border: none;
+    }
+    
+    .link a {
+        color: #FFF;
+        text-decoration: none;
+        font-size: 2em;
+    }
+    
+    a:hover {
+    color: #fe52bf;
+    }
+    
+    #quote {
+        font-family: 'Fontdiner Swanky', cursive;
+    }
+    
+    p {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 1em;
+    }
+    
+    h4 {
+        margin: 0;
+        padding-left: 3em;
+        padding-bottom: 1em;
+        font-family: 'Lobster', cursive;
+        font-size: 20px;
+    }
+    
+    #test {
+        display: block;
+        border: black solid 1px;
+        width: 100%;
+        height: 2.5em;
+        padding-bottom: 3em;
+        background-image: url(../imgs/induction.gif);
+        background-size: 8em;
+    }
+}
+    
+@media screen and (max-width: 650px){ 
+    
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        margin: 0;
+        font-family: 'Fontdiner Swanky', cursive;
+        font-size: 40px;
+        text-align: center;
+        color: #FFF;
+    }
+
+    h3 {
+        margin: 0;
+        font-family: 'Fontdiner Swanky', cursive;
+        font-size: 20px;
+        text-align: center;
+        color: #FFF;
+    }
+    
+    #bottom {
+        height: 26em;
+        display: block;
+        background-image: url(../imgs/Lightningflash.gif);
+        background-size: cover;
+    }
+    
+    #top {
+        display: inline-table;
+        list-style: none;
+        display: block;
+        width: 100%;
+    }
+    
+    #quote {
+        display: none;
+    }
+    
+    #center {
+        margin-top: 1.5em;
+        text-align: center;
+    }
+    
+        #teslaman {
+        height: 12em;
+        width: 9em;
+        border-radius: 80px;
+        opacity: .4;
+    }
+    
+    #coil{
+        margin-left: 3em;
+        height: 12em;
+        width: 9em;
+        border-radius: 80px;
+        opacity: 1;
+    }
+    
+    #poof1 {
+        margin-left: 3em;
+        height: 12em;
+        width: 9em;
+        border-radius: 80px;
+        opacity: .4;
+    }
+    
+    #links{
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+    }
+    
+    .link {
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        text-align: center;
+        list-style: none;
+        height: 2.5em;
+        width: 100%;
+        background-color: #000;
+        border: none;
+    }
+    
+    .link a {
+        color: #FFF;
+        text-decoration: none;
+        font-size: 2em;
+    }
+    
+    a:hover {
+    color: #fe52bf;
+    }
+    
+    #test {
+        display: block;
+        border: black solid 1px;
+        width: 100%;
+        height: 3em;
+        padding-bottom: 3em;
+        background-image: url(../imgs/induction.gif);
+        background-size: 8em;
+    }
+
+}
+/*---This is for phones (width < 450px)---*/
+@media screen and (max-width: 450px){
+
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        margin: 0;
+        font-family: 'Fontdiner Swanky', cursive;
+        font-size: 30px;
+        text-align: center;
+        color: #FFF;
+    }
+
+    h3 {
+        margin: 0;
+        font-family: 'Fontdiner Swanky', cursive;
+        font-size: 15px;
+        text-align: center;
+        color: #FFF;
+    }
+
+    #bottom {
+        height: 20em;
+        display: block;
+        background-image: url(../imgs/Lightningflash.gif);
+        background-size: cover;
+    }
+    
+    #top {
+        display: inline-table;
+        list-style: none;
+        display: block;
+        width: 100%;
+    }
+    
+    #center {
+        margin-top: 1.5em;
+        text-align: center;
+    }
+    
+    #teslaman {
+        height: 11em;
+        width: 8em;
+        border-radius: 80px;
+        opacity: .4;
+    }
+    
+    #coil {
+        display: none;
+    }
+    
+    #poof1 {
+        display: none;
+    }
+    
+    #quote {
+        display: none;
+    }
+    
+    /*--This code (#links, .link, .link a stacks the li of an ul for mobile navigation)--*/
+    #links{
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+    }
+    
+    .link {
+        padding-top: 1em;
+        text-align: center;
+        list-style: none;
+        height: 1.5em;
+        width: 100%;
+        background-color: #000;
+        border: none;
+    }
+    
+    .link a {
+        color: #FFF;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #fe52bf;
+    }
+    
+    #test {
+        display: none;
+    }
+}
